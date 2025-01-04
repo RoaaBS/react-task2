@@ -1,0 +1,46 @@
+.container-fluid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  text-transform: uppercase;
+  background-color: #2c3e50;
+  margin-top: 30px;
+  padding-top: 20px;
+  position: fixed;
+  height: 100px;
+}
+h1{
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+text-decoration: solid;
+  font-weight: 700;
+}
+.container-fluid h2 {
+margin-top:1rem;
+margin-bottom: 1rem ;
+  margin-left: 2rem;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  padding: 0.3125rem 0;
+}
+
+.container-fluid a { 
+  color: white;
+  text-transform: uppercase;
+}
+
+.navbar-nav {
+  margin: 0;
+  margin-right: 3rem;
+  cursor: pointer;
+ 
+
+}
+.container-fluid .navbar-nav:hover{
+  color: #1abc9c;
+}
+.navbar-collapse {
+  justify-content: end;
+
+}

@@ -1,0 +1,47 @@
+
+.portfolio{
+    background-color: white;
+    color: rgb(44, 62, 80);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6rem;
+    font-size: 2.25rem;
+    line-height: 2rem;
+}
+.divider-custom2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    gap: 1rem; 
+}
+
+.divider-custom-line2 {
+    background-color: rgb(44, 62, 80); 
+    flex-grow: 1; 
+    height: 0.25rem;
+    max-width: 7rem; 
+}
+
+.divider-custom-icon2 {
+    color: rgb(44, 62, 80); 
+    font-size: 1.5rem;
+}
+
+.portfolio-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   gap: 20px;
+    
+   
+}
+.portfolio-img img{
+    width: 25%;
+    height: 30%;
+    margin-top: 10px;
+    padding-top: 8px;
+    border-radius: 15px;
+}

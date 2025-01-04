@@ -1,0 +1,17 @@
+.About{
+    background-color: #1abc9c;
+    margin-top: 6rem;
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+}
+h1{
+    color: white;
+}
+.row{
+    display: flex;
+        flex-wrap: wrap;}
+
+.lead{
+    font-size: 1.25rem;
+    font-weight: 300;}
